@@ -32,9 +32,9 @@ public class AreaCalculator {
 		int choice = Integer.parseInt(option); //Input validation
 		
 		if (choice == 1) {
-			
+			calcAreaCircle();
 		} else if (choice == 2) {
-			
+			calcAreaTriangle();
 		} else if (choice == 3) {
 			System.exit(0);
 		} else {
