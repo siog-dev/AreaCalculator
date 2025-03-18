@@ -14,6 +14,7 @@ public class AreaCalculator {
 		scanner = new Scanner(System.in); //Adds read-in functionality from command line/console
 		
 		init();
+		
 	}
 	
 	public void calculateCircleArea () {
@@ -35,6 +36,6 @@ public class AreaCalculator {
 	}
 	
 	public static void main(String[] args) {
-		
+		new AreaCalculator();
 	}
 }
