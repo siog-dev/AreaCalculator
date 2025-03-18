@@ -45,6 +45,21 @@ public class AreaCalculator {
 		String option = scanner.next();
 		int choice = Integer.parseInt(option); //Input validation
 		
+		switch(choice) {
+			case 1:
+				calcAreaCircle();
+				break;
+			case 2:
+				calcAreaTriangle();
+				break;
+			case 3:
+				System.exit(0);
+				break;
+			default:
+				System.out.println("Invalid selection.");
+				break; //Not totally needed at the end of the switch statement
+		}
+		/*
 		if (choice == 1) {
 			calcAreaCircle();
 		} else if (choice == 2) {
@@ -53,7 +68,7 @@ public class AreaCalculator {
 			System.exit(0);
 		} else {
 			System.out.println("Invalid selection.");
-		}
+		}*/
 	}
 	
 	private void init() {
