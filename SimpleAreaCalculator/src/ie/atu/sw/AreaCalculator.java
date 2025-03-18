@@ -14,6 +14,18 @@ public class AreaCalculator {
 		
 	}
 	
+	public void calculateCircleArea () {
+		
+	}
+	
+	public void calculateTriangleArea () {
+		
+	}
+	
+	private void init() {
+		
+	}
+	
 	public static void main(String[] args) {
 		
 	}
