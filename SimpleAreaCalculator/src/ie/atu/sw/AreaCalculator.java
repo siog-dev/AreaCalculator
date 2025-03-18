@@ -27,7 +27,17 @@ public class AreaCalculator {
 	}
 	
 	public void calcAreaTriangle () {
-		
+		//Get user data for width
+		System.out.println("Enter the width>"); //Give user instruction
+		String input = scanner.next(); //Get the value from the user
+		double width = Double.parseDouble(input); //Convert user input(if valid) to a double
+		//Get user data for height
+		System.out.println("Enter the height>");
+		input = scanner.next();
+		double height = Double.parseDouble(input);
+		//Compute result using user data
+		double area = height * (width / 2.0d);
+		System.out.println("Area of Triangle: " + area);
 	}
 	
 	//Returns the next token in the scanner
