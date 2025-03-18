@@ -18,11 +18,11 @@ public class AreaCalculator {
 		
 	}
 	
-	public void calculateCircleArea () {
+	public void calcAreaCircle () {
 		
 	}
 	
-	public void calculateTriangleArea () {
+	public void calcAreaTriangle () {
 		
 	}
 	
