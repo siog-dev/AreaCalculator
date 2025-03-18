@@ -19,7 +19,11 @@ public class AreaCalculator {
 	}
 	
 	public void calcAreaCircle () {
-		
+		System.out.println("Enter the radius>");
+		String input = scanner.next();
+		double radius = Double.parseDouble(input);
+		double area = Math.PI * (radius * radius); //Area = pi(radius^2)
+		System.out.println("Area of Circle: " + area);
 	}
 	
 	public void calcAreaTriangle () {
