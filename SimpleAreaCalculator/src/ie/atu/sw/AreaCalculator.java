@@ -11,7 +11,7 @@ public class AreaCalculator {
 	//Add skeleton of class, wire it together later
 	
 	public AreaCalculator() { //Constructor method
-		
+		scanner = new Scanner(System.in); //Adds read-in functionality from command line/console
 	}
 	
 	public void calculateCircleArea () {
