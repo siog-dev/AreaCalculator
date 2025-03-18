@@ -29,10 +29,10 @@ public class AreaCalculator {
 		System.out.println(".......................................");
 		System.out.println("\tSimple Area Calculator");
 		System.out.println(".......................................");
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		System.out.println();
+		System.out.println("(1) Area of a Circle");
+		System.out.println("(2) Area of a Triangle");
+		System.out.println("(3) Quit");
+		System.out.println("Select [1-3]>");
 	}
 	
 	public static void main(String[] args) {
