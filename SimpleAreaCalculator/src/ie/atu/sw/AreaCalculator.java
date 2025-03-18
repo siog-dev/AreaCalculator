@@ -12,6 +12,8 @@ public class AreaCalculator {
 	
 	public AreaCalculator() { //Constructor method
 		scanner = new Scanner(System.in); //Adds read-in functionality from command line/console
+		
+		init();
 	}
 	
 	public void calculateCircleArea () {
@@ -23,7 +25,13 @@ public class AreaCalculator {
 	}
 	
 	private void init() {
-		
+		System.out.println("...................................");
+		System.out.println("\t\tSimple Area Calculator");
+		System.out.println("...................................");
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
 	}
 	
 	public static void main(String[] args) {
