@@ -26,9 +26,9 @@ public class AreaCalculator {
 	}
 	
 	private void init() {
-		System.out.println("...................................");
-		System.out.println("\t\tSimple Area Calculator");
-		System.out.println("...................................");
+		System.out.println(".......................................");
+		System.out.println("\tSimple Area Calculator");
+		System.out.println(".......................................");
 		System.out.println();
 		System.out.println();
 		System.out.println();
