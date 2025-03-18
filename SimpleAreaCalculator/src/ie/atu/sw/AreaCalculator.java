@@ -36,7 +36,7 @@ public class AreaCalculator {
 		} else if (choice == 2) {
 			
 		} else if (choice == 3) {
-						
+			System.exit(0);
 		} else {
 			System.out.println("Invalid selection.");
 		}
