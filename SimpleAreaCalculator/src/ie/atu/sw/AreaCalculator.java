@@ -30,6 +30,12 @@ public class AreaCalculator {
 	private void processInput() {
 		String option = scanner.next();
 		int choice = Integer.parseInt(option); //Input validation
+		
+		if (condition) {
+			
+		} else {
+
+		}
 	}
 	
 	private void init() {
