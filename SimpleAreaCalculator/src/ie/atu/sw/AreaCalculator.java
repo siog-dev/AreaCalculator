@@ -31,10 +31,10 @@ public class AreaCalculator {
 		String option = scanner.next();
 		int choice = Integer.parseInt(option); //Input validation
 		
-		if (condition) {
+		if (choice == 1) {
 			
 		} else {
-
+			System.out.println("Invalid selection.");
 		}
 	}
 	
