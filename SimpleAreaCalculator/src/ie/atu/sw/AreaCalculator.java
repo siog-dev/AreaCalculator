@@ -10,6 +10,10 @@ public class AreaCalculator {
 	
 	//Add skeleton of class, wire it together later
 	
+	public AreaCalculator() { //Constructor method
+		
+	}
+	
 	public static void main(String[] args) {
 		
 	}
