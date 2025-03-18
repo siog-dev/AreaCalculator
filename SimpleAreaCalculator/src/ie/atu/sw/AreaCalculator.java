@@ -29,7 +29,7 @@ public class AreaCalculator {
 	//Returns the next token in the scanner
 	private void processInput() {
 		String option = scanner.next();
-		System.out.println(option);
+		int choice = Integer.parseInt(option); //Input validation
 	}
 	
 	private void init() {
