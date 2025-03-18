@@ -8,4 +8,9 @@ public class AreaCalculator {
 	//Instance variables
 	private Scanner scanner; //vis mod + Class name + Identifier
 	
+	//Add skeleton of class, wire it together later
+	
+	public static void main(String[] args) {
+		
+	}
 }
