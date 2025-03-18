@@ -14,6 +14,7 @@ public class AreaCalculator {
 		scanner = new Scanner(System.in); //Adds read-in functionality from command line/console
 		
 		init();
+		processInput();
 		
 	}
 	
