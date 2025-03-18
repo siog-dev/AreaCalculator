@@ -25,6 +25,12 @@ public class AreaCalculator {
 		
 	}
 	
+	//Returns the next token in the scanner
+	private void processInput() {
+		String option = scanner.next();
+		System.out.println(option);
+	}
+	
 	private void init() {
 		System.out.println(".......................................");
 		System.out.println("\tSimple Area Calculator");
