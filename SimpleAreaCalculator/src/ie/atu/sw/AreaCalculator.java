@@ -1,17 +1,14 @@
 package ie.atu.sw;
 
-import java.util.Scanner; //ctrl + shift + o to import missing library
-// java.util.* = import everything in the util directory
+import java.util.Scanner;
 
 public class AreaCalculator {
 
 	//Instance variables
-	private Scanner scanner; //vis mod + Class name + Identifier
+	private Scanner scanner;
 	
-	//Add skeleton of class, wire it together later
-	
-	public AreaCalculator() { //Constructor method
-		scanner = new Scanner(System.in); //Adds read-in functionality from command line/console
+	public AreaCalculator() {
+		scanner = new Scanner(System.in);
 		
 		init();
 		processInput();
@@ -22,7 +19,7 @@ public class AreaCalculator {
 		System.out.println("Enter the radius>");
 		String input = scanner.next();
 		double radius = Double.parseDouble(input);
-		double area = Math.PI * (radius * radius); //Area = pi(radius^2)
+		double area = Math.PI * (radius * radius);
 		System.out.println("Area of Circle: " + area);
 	}
 	
@@ -40,11 +37,11 @@ public class AreaCalculator {
 		System.out.println("Area of Triangle: " + area);
 	}
 	
-	//Returns the next token in the scanner
 	private void processInput() {
 		String option = scanner.next();
-		int choice = Integer.parseInt(option); //Input validation
+		int choice = Integer.parseInt(option);
 		
+		//Old Switch Statement
 		switch(choice) {
 			case 1:
 				calcAreaCircle();
@@ -57,9 +54,10 @@ public class AreaCalculator {
 				break;
 			default:
 				System.out.println("Invalid selection.");
-				break; //Not totally needed at the end of the switch statement
+				break;
 		}
 		/*
+		//IF Statement
 		if (choice == 1) {
 			calcAreaCircle();
 		} else if (choice == 2) {
