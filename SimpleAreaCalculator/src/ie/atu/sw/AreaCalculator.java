@@ -10,8 +10,10 @@ public class AreaCalculator {
 	public AreaCalculator() {
 		scanner = new Scanner(System.in);
 		
-		init();
-		processInput();
+		while (true) {
+			init();
+			processInput();
+		}
 		
 	}
 	
