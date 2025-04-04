@@ -11,10 +11,10 @@ public class AreaCalculator {
 	public AreaCalculator() {
 		scanner = new Scanner(System.in);
 		
-		while (keepRunning) { //Could use (keepRunning == true) but there is more room for error
+		do {
 			init();
 			processInput();
-		}
+		} while (keepRunning);
 		
 	}
 	
