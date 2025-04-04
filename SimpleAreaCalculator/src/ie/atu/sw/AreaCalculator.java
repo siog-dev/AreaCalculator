@@ -6,11 +6,12 @@ public class AreaCalculator {
 
 	//Instance variables
 	private Scanner scanner;
+	private boolean keepRunning = true;
 	
 	public AreaCalculator() {
 		scanner = new Scanner(System.in);
 		
-		while (true) {
+		while (keepRunning) {
 			init();
 			processInput();
 		}
@@ -46,7 +47,7 @@ public class AreaCalculator {
 		switch(choice) {
 			case 1  -> calcAreaCircle(); //One method invocation per line
 			case 2  -> calcAreaTriangle();
-			case 3  -> System.exit(0);
+			case 3  -> keepRunning = false;
 			default -> System.out.println("Invalid selection.");
 		}
 		
